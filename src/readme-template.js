@@ -1,13 +1,11 @@
-///////////////////////// Confirm Function //////////////////////////////////
+//confirm function
 
 const getMessage = (confirm, message) => { 
     if(confirm) 
         return message;
 };
 
-/////////////////////////////////////////////////////////////////////////////
-
-/////////////////////// Getting Badge ///////////////////////////////////////
+// badge
 
 const getBadge = license =>{
     switch(license) {
@@ -23,9 +21,7 @@ const getBadge = license =>{
             return "![v1](https://img.shields.io/static/v1?label=License&message=None&color=inactive&&style=plastic)";    
     }
 };
-/////////////////////////////////////////////////////////////////////////////
-
-////////////////// Getting Text for License /////////////////////////////////
+ //text for license
 
 const getDiscloseLicense = (license, title) =>{
     let message =" ";
@@ -81,9 +77,7 @@ Private use |     |`;
             return message;    
     }
 };
-/////////////////////////////////////////////////////////////////////////////
-
-////////////////////////// README Template //////////////////////////////////
+//template for readme
 module.exports = templateData => {
     // destructure data by section to get the information
     const { title, description, install, confirmUsage, usage, confirmContribution, contribution, test, license, github, email} = templateData;
@@ -147,4 +141,3 @@ for more information you can have a question via email [${email}](${email})  .
     `;
   };
 
-/////////////////////////////////////////////////////////////////////////////
