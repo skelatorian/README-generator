@@ -13,4 +13,5 @@ const promptUser = dataReadme => {
 Generating a Professional README file in Node.js
 ================================================
 `);
+};
 
