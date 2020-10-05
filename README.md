@@ -2,6 +2,10 @@
 
 # Professional README Generator
 
+## Preview
+
+![](/src/README-Generator.gif)
+
 ## Description 
 
 This application will automatically generate a professional README for your convience!
@@ -29,7 +33,7 @@ inquirer=requirer('inquirer');
 
 ## Contributing
 
-[https://github.com/Xandromus] 
+[https://github.com/Xandromus]
 
 
 ## License
