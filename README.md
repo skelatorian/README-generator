@@ -29,7 +29,7 @@ inquirer=requirer('inquirer');
 
 ## Contributing
 
-[https://github.com/Xandromus] (https://github.com/Xandromus)
+[https://github.com/Xandromus] 
 
 
 ## License
@@ -65,4 +65,4 @@ Feel free to reach out!
 
 Github Profile: [https://github.com/skelatorian] 
 
-E-mail: [mylynhle21@gmail.com] (mylynhle21@gmail.com)
+E-mail: [mylynhle21@gmail.com] 
